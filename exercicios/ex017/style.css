@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Valentine';
+    src: url(Valentine-Moment.ttf) format('truetype');
+
+}
+
+h1 {
+    font-family: 'Valentine';
+    font-size: 3em;
+    text-align: center;
+}
