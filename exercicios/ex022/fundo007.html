@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container {
+            position: relative;
+            height: 500px;
+            background-color: purple;
+            padding: 10px;
+        }
+
+        #conteudo {
+            height: 200px;
+            background-color: yellow;
+        }
+
+        .cabecalho {
+            position: relative;
+            background-color: black;
+            height: 150px;
+            padding: 30px;
+        }
+
+        .fundo01 {
+            position: absolute;
+            right: 30px;
+            margin-bottom: 30px;
+        }
+
+        .fundo03 {
+            position: absolute;
+            right: 80px;
+            width: 40px;
+            margin-top: 120px;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="fundo01" src="imagens/pattern001.png" alt="fundo001">
+        <img class="fundo02" src="imagens/pattern002.png" alt="">
+        <img class="fundo03" src="imagens/pattern003.png" alt="">
+        <img class="fundo04" src="imagens/pattern004.png" alt="">
+
+    </header>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
